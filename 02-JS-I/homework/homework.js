@@ -75,7 +75,8 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if (str1 == 90);
   else (str2 == 90);
-  return (str1, str2);
+  var tienenMismaLongitud = str1 == str2;
+  return tienenMismaLongitud;
 }
 
 function menosQueNoventa(num) {
